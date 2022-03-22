@@ -73,23 +73,34 @@ Original App Design Project - README Template
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | author        | Pointer to User| image author |
+   | image         | File     | image that user posts |
+   | caption       | String   | image caption by author |
+   | commentsCount | Number   | number of comments that has been posted to an image |
+   | likesCount    | Number   | number of likes for the post |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
 ### Networking
 - Home Feed Screen
 
   - (Read/GET) Query all posts where user is author
 
-        let query = PFQuery(className:"Post")
+        ```swift
+         let query = PFQuery(className:"Post")
          query.whereKey("author", equalTo: currentUser)
          query.order(byDescending: "createdAt")
          query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-          if let error = error { 
-        print(error.localizedDescription)
-         } else if let posts = posts {
-        print("Successfully retrieved \(posts.count) posts.")
-        // TODO: Do something with posts...
-        }
+            if let error = error { 
+               print(error.localizedDescription)
+            } else if let posts = posts {
+               print("Successfully retrieved \(posts.count) posts.")
+           // TODO: Do something with posts...
+            }
          }
+         ```
 
   - (Create/POST) Create a new like on a post
 
