@@ -70,7 +70,7 @@ Original App Design Project - README Template
 ### Models
 [Add table of models]
 ### Networking
- Home Feed Screen
+- Home Feed Screen
 - 
 (Read/GET) Query all posts where user is author
 
