@@ -88,7 +88,7 @@ Original App Design Project - README Template
 
   - (Read/GET) Query all posts where user is author
 
-        ```swift
+     ```swift
          let query = PFQuery(className:"Post")
          query.whereKey("author", equalTo: currentUser)
          query.order(byDescending: "createdAt")
@@ -100,7 +100,7 @@ Original App Design Project - README Template
            // TODO: Do something with posts...
             }
          }
-         ```
+      ```
 
   - (Create/POST) Create a new like on a post
 
