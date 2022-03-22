@@ -38,12 +38,7 @@ Original App Design Project - README Template
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+<img src='Twitter_Week1.gif'/>
 
 ### 3. Navigation
 
