@@ -38,7 +38,7 @@ Original App Design Project - README Template
 
 ### 2. Screen Archetypes
 
-<img src='Twitter_Week1.gif'/>
+<img src='image_67132673.JPG'/>
 
 ### 3. Navigation
 
