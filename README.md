@@ -71,7 +71,9 @@ Original App Design Project - README Template
 [Add table of models]
 ### Networking
 - Home Feed Screen
+- 
 (Read/GET) Query all posts where user is author
+
 let query = PFQuery(className:"Post")
 query.whereKey("author", equalTo: currentUser)
 query.order(byDescending: "createdAt")
@@ -83,6 +85,8 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
   // TODO: Do something with posts...
    }
 }
+
+
 (Create/POST) Create a new like on a post
 (Delete) Delete existing like
 (Create/POST) Create a new comment on a post
@@ -92,5 +96,6 @@ Create Post Screen
 Profile Screen
 (Read/GET) Query logged in user object
 (Update/PUT) Update user profile image
+
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
