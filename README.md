@@ -74,26 +74,25 @@ Original App Design Project - README Template
 
   - (Read/GET) Query all posts where user is author
 
-let query = PFQuery(className:"Post")
-query.whereKey("author", equalTo: currentUser)
-query.order(byDescending: "createdAt")
-query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-   if let error = error { 
+    - let query = PFQuery(className:"Post")
+      query.whereKey("author", equalTo: currentUser)
+      query.order(byDescending: "createdAt")
+      query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+       if let error = error { 
       print(error.localizedDescription)
-   } else if let posts = posts {
+       } else if let posts = posts {
       print("Successfully retrieved \(posts.count) posts.")
-  // TODO: Do something with posts...
-   }
-}
+      // TODO: Do something with posts...
+       }
+      }
 
+  - (Create/POST) Create a new like on a post
 
-    - (Create/POST) Create a new like on a post
+  - (Delete) Delete existing like
 
-    - (Delete) Delete existing like
+  - (Create/POST) Create a new comment on a post
 
-    - (Create/POST) Create a new comment on a post
-
-    - (Delete) Delete existing comment
+  - (Delete) Delete existing comment
 
 - Create Post Screen
     - (Create/POST) Create a new post object
