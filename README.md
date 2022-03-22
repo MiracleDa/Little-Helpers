@@ -28,8 +28,13 @@ Original App Design Project - README Template
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can create account
+* User can login
+* User can view feed
+* User can view account
+* User can post
+* User can comment on post
+* User can logout
 
 **Optional Nice-to-have Stories**
 
