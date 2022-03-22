@@ -72,7 +72,7 @@ Original App Design Project - README Template
 ### Networking
 - Home Feed Screen
 
-  -(Read/GET) Query all posts where user is author
+  - (Read/GET) Query all posts where user is author
 
 let query = PFQuery(className:"Post")
 query.whereKey("author", equalTo: currentUser)
@@ -87,11 +87,11 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
 }
 
 
-  -(Create/POST) Create a new like on a post
+  - (Create/POST) Create a new like on a post
 
-  -(Delete) Delete existing like
+  - (Delete) Delete existing like
 
-  -(Create/POST) Create a new comment on a post
+  - (Create/POST) Create a new comment on a post
 
   -(Delete) Delete existing comment
 
