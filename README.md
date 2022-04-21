@@ -66,7 +66,7 @@
 * Settings -> Toggle settings
 
 ## Wireframes
-<img src="wireframes.jpg">
+<img src="wireframes.JPG">
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src="https://i.imgur.com/lYHn37F.jpg" height=200>
