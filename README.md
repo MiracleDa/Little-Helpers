@@ -72,7 +72,7 @@
 <img src="https://i.imgur.com/lYHn37F.jpg" height=200>
 
 ### [BONUS] Interactive Prototype
-<img src="appgif.mp4">
+<img src="app.gif">
 
 ## Schema 
 ### Models
