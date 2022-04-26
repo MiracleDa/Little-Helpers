@@ -26,28 +26,27 @@
 
 **Required Must-have Stories**
 
-* User creates account
-* User logs in to access 
-* User view different posts
-* User can like a post
-* User can share a post
-* User can make a post
-* Profile pages for each user
-* Settings (Accesibility, Notification, General, etc.)
+[x] User creates account
+[x] User logs in to access 
+[x] User view different posts
+[x] User can interact with a post
+[x] User can share a post
+[x] User can make a post
+[x] Settings (Accesibility, Account, General, etc.)
 
 
 ### 2. Screen Archetypes
 
 * Login 
 * Register - User signs up or logs into their account
-   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to be properly matched with another person. 
+   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to be properly.
    * ...
-* Messaging Screen - Chat for users to communicate (direct 1-on-1)
+* Feed Screen - Feed that users view in order to see what's going on in the world and who needs help.
    *  
-   * Allows user to upload a photo and fill in information that is interesting to them and others
+   * Allows user to make post stating what heppened and what all is needed for them or others.
 
 * Settings Screen
-   * Lets people change language, and app notification settings.
+   * Lets people change account, and general app settings.
 
 ### 3. Navigation
 
