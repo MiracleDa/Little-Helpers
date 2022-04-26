@@ -29,11 +29,11 @@
 * [x] User creates account
 * [x] User logs in to access 
 * [x] User view different posts
-* [x] User can email health status
-* [x] User can interact with a post
 * [x] User can share a post
 * [x] User can make a post
-* [x] Settings (Accesibility, Account, General, etc.)
+* [x] user can view about us screen
+* [ x] user can view feed
+* [x] user can make help request
 
 
 ### 2. Screen Archetypes
